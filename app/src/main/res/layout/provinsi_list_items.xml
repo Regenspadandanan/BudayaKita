@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/llyProvinsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_provinsi"
+        android:backgroundTint="@color/purple_200"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/ivPhotoProvinsi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bali" />
+
+        <TextView
+            android:id="@+id/tvNamaProvinsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="ACEH"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ivProvinsi"-->
+<!--        android:layout_width="380dp"-->
+<!--        android:layout_height="156dp"-->
+<!--        android:src="@drawable/jateng"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.516"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</RelativeLayout>

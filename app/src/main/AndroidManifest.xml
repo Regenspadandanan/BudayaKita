@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.budayakita">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BudayaKita">
+        <activity android:name=".Pencarian"></activity>
+        <activity android:name=".provinsiyogya" />
+        <activity android:name=".provinsisumut" />
+        <activity android:name=".provinsisumbar" />
+        <activity android:name=".provinsisulsel" />
+        <activity android:name=".provinsipapuabarat" />
+        <activity android:name=".provinsintb" />
+        <activity android:name=".provinsijatim" />
+        <activity android:name=".provinsijateng" />
+        <activity android:name=".provinsibali" />
+        <activity android:name=".provinsiaceh" />
+        <activity android:name=".alatmusikyogya" />
+        <activity android:name=".alatmusiksumut" />
+        <activity android:name=".alatmusiksumbar" />
+        <activity android:name=".alatmusiksulsel" />
+        <activity android:name=".alatmusikpapuabarat" />
+        <activity android:name=".alatmusikntb" />
+        <activity android:name=".alatmusikjatim" />
+        <activity android:name=".alatmusikjateng" />
+        <activity android:name=".alatmusikbali" />
+        <activity android:name=".alatmusikaceh" />
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".rumahyogya" />
+        <activity android:name=".rumahsumut" />
+        <activity android:name=".rumahsumbar" />
+        <activity android:name=".rumahsulsel" />
+        <activity android:name=".rumahpapuabarat" />
+        <activity android:name=".rumahntb" />
+        <activity android:name=".rumahjatim" />
+        <activity android:name=".rumahjateng" />
+        <activity android:name=".rumahbali" />
+        <activity android:name=".rumahaceh" />
+        <activity android:name=".bajupapuabarat" />
+        <activity android:name=".bajuyogya" />
+        <activity android:name=".bajusumut" />
+        <activity android:name=".bajusumbar" />
+        <activity android:name=".bajusulsel" />
+        <activity android:name=".bajuntb" />
+        <activity android:name=".bajujatim" />
+        <activity android:name=".bajujateng" />
+        <activity android:name=".bajubali" />
+        <activity android:name=".bajuaceh" />
+        <activity android:name=".SplashScreen3" />
+        <activity android:name=".SplashScreen2" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".pilihprovinsi"
+            android:exported="false">
+
+        </activity>
+    </application>
+
+</manifest>
